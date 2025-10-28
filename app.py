@@ -1,4 +1,4 @@
-%%writefile app.py
+
 import streamlit as st
 import pandas as pd
 import joblib
@@ -53,3 +53,4 @@ if roll_no:
     st.pyplot(fig)
 else:
     st.info("Enter a roll number to predict student performance.")
+
